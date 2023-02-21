@@ -31,6 +31,10 @@ namespace TheCube.Controllers
         {
             return View();
         }
+        public IActionResult Board()
+        {
+            return View("Board");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

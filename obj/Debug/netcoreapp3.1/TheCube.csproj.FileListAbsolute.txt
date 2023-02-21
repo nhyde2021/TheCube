@@ -35,3 +35,4 @@ C:\Users\neilh\Coding Projects\TheCube\obj\Debug\netcoreapp3.1\TheCube.pdb
 C:\Users\neilh\Coding Projects\TheCube\obj\Debug\netcoreapp3.1\TheCube.genruntimeconfig.cache
 C:\Users\neilh\Coding Projects\TheCube\obj\Debug\netcoreapp3.1\TheCube.csproj.CopyComplete
 C:\Users\neilh\Coding Projects\TheCube\obj\Debug\netcoreapp3.1\Razor\Views\Home\Rules.cshtml.g.cs
+C:\Users\neilh\Coding Projects\TheCube\obj\Debug\netcoreapp3.1\Razor\Views\Home\Board.cshtml.g.cs
