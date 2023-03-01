@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neilh\\Coding Projects\\TheCube\\TheCube.csproj",
+      "projectUniqueName": "C:\\Users\\neilh\\Coding_Projects\\TheCube\\TheCube.csproj",
       "projectName": "TheCube",
-      "projectPath": "C:\\Users\\neilh\\Coding Projects\\TheCube\\TheCube.csproj",
+      "projectPath": "C:\\Users\\neilh\\Coding_Projects\\TheCube\\TheCube.csproj",
       "packagesPath": "C:\\Users\\neilh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neilh\\Coding Projects\\TheCube\\obj\\",
+      "outputPath": "C:\\Users\\neilh\\Coding_Projects\\TheCube\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\neilh\\AppData\\Roaming\\NuGet\\NuGet.Config",

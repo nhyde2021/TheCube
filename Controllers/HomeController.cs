@@ -33,7 +33,7 @@ namespace TheCube.Controllers
         }
         public IActionResult Board()
         {
-            return View("Board");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
