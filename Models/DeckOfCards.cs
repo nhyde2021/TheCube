@@ -22,7 +22,7 @@ namespace TheCube.Models
                 foreach (VALUE v in Enum.GetValues(typeof(VALUE)))
                 {
                     deck[i] = new Card { Myusuit = s, MyValue = v };
-                i++;
+                    i++;
                 }
             }
             ShuffleCards();

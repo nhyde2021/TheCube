@@ -75,7 +75,7 @@ body {
     border: 20px solid green;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(3, 500px);
     gap: 10px;
 }
 
@@ -83,4 +83,7 @@ body {
     background-color: gray;
     border: 10px solid black;
 }
-
+.img-center {
+    margin: 0 auto;
+    display: block;
+}
