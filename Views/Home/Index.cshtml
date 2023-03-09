@@ -7,12 +7,9 @@
 
 <div class="text-center">
     <h1 class="display-4">Beat The Cube!!</h1>
-    <button>
-      <a asp-controller="Home" asp-action="board" method="post">Play</a> 
-    </button>
 </div>
-<div class = "align-content-center">
-    <table>
+<div class = "center">
+    <table class = "center">
     @{
         StandardDeck deck = new StandardDeck();
         StandardPlayingCard card = null;
@@ -33,6 +30,12 @@
             <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
         </tr>
     }
+    </table>
+    <div class = "center">
+    <button>Higher</button>
+    <button>Same</button>
+    <button>Lower</button>
+    </div>
     
-</table>
 </div>
+
