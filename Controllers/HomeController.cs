@@ -6,6 +6,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using TheCube.Models;
+using NetDeck.Decks;
+using NetDeck.Cards;
 
 namespace TheCube.Controllers
 {
@@ -20,6 +22,10 @@ namespace TheCube.Controllers
 
         public IActionResult Index()
         {
+            StandardDeck deck = new StandardDeck();
+            StandardPlayingCard drawnCard = deck.DrawCard();
+            ViewBag.deck = drawnCard;
+
             return View();
         }
 
@@ -41,5 +47,12 @@ namespace TheCube.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+       
+
+
     }
+
 }
+
+

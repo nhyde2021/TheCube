@@ -74,3 +74,4 @@ C:\Users\neilh\Coding_Projects\TheCube\obj\Debug\netcoreapp3.1\TheCube.dll
 C:\Users\neilh\Coding_Projects\TheCube\obj\Debug\netcoreapp3.1\TheCube.pdb
 C:\Users\neilh\Coding_Projects\TheCube\obj\Debug\netcoreapp3.1\TheCube.genruntimeconfig.cache
 C:\Users\neilh\Coding_Projects\TheCube\obj\Debug\netcoreapp3.1\TheCube.csproj.CopyComplete
+C:\Users\neilh\Coding_Projects\TheCube\bin\Debug\netcoreapp3.1\NetDeck.dll

@@ -1,4 +1,7 @@
-﻿@{
+﻿@using NetDeck.Cards
+@using NetDeck.Decks
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -8,4 +11,28 @@
       <a asp-controller="Home" asp-action="board" method="post">Play</a> 
     </button>
 </div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/English_pattern_king_of_hearts.svg/1200px-English_pattern_king_of_hearts.svg.png" alt="King of Hearts">
+<div class = "align-content-center">
+    <table>
+    @{
+        StandardDeck deck = new StandardDeck();
+        StandardPlayingCard card = null;
+
+        <tr>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+        </tr>
+        <tr>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+        </tr>
+        <tr>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+        </tr>
+    }
+    
+</table>
+</div>

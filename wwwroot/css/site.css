@@ -87,3 +87,8 @@ body {
     margin: 0 auto;
     display: block;
 }
+td {
+    margin: auto;
+    background-color: gray;
+    border: 2px solid black;
+}

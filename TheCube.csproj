@@ -19,4 +19,8 @@
     <Folder Include="Views\Board\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NetDeck" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>
