@@ -8,34 +8,35 @@
 <div class="text-center">
     <h1 class="display-4">Beat The Cube!!</h1>
 </div>
-<div class = "center">
+<div>
+    <p>@ViewBag.remainingCards Cards Left in Deck</p>
     <table class = "center">
-    @{
-        StandardDeck deck = new StandardDeck();
-        StandardPlayingCard card = null;
-
+        
+    
         <tr>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@ViewBag.initialDeal[0].Rank of @ViewBag.initialDeal[0].FullSuitName</td>
+            <td>@ViewBag.initialDeal[1].Rank of @ViewBag.initialDeal[1].FullSuitName</td>
+            <td>@ViewBag.initialDeal[2].Rank of @ViewBag.initialDeal[2].FullSuitName</td>
         </tr>
         <tr>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@ViewBag.initialDeal[3].Rank of @ViewBag.initialDeal[3].FullSuitName</td>
+            <td>@ViewBag.initialDeal[4].Rank of @ViewBag.initialDeal[4].FullSuitName</td>
+            <td>@ViewBag.initialDeal[5].Rank of @ViewBag.initialDeal[5].FullSuitName</td>
         </tr>
         <tr>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
-            <td>@{card = deck.DrawCard();} @card.Rank of @card.FullSuitName</td>
+            <td>@ViewBag.initialDeal[6].Rank of @ViewBag.initialDeal[6].FullSuitName</td>
+            <td>@ViewBag.initialDeal[7].Rank of @ViewBag.initialDeal[7].FullSuitName</td>
+            <td>@ViewBag.initialDeal[8].Rank of @ViewBag.initialDeal[8].FullSuitName</td>
         </tr>
-    }
+    
     </table>
     <div class = "center">
+    <p>Next card will be:</p>
     <button>Higher</button>
     <button>Same</button>
     <button>Lower</button>
     </div>
+
     
 </div>
 

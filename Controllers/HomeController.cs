@@ -23,8 +23,25 @@ namespace TheCube.Controllers
         public IActionResult Index()
         {
             StandardDeck deck = new StandardDeck();
-            StandardPlayingCard drawnCard = deck.DrawCard();
-            ViewBag.deck = drawnCard;
+            List<StandardPlayingCard> initialDeal = new List<StandardPlayingCard>();
+
+            int xCount = 0;
+
+            for (int i = 0; i < 9; i++)
+            {
+                StandardPlayingCard card = deck.DrawCard();
+                initialDeal.Add(card);
+            }
+            int remainingCards = deck.CurrentCardCount();
+
+
+            ViewBag.initialDeal = initialDeal;
+            ViewBag.remainingCards = remainingCards;           
+
+           /* while (remainingCards > 0 || xCount < 9)
+            {
+
+            }*/
 
             return View();
         }
